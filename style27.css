@@ -1,0 +1,149 @@
+/* ######################### portfolio #################### */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #4F4975;
+    
+}
+#main{
+    width: 100%;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: #4F4975;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+
+}
+nav #links{
+    display: flex;
+    gap: 25px;
+    text-transform: capitalize;
+}
+nav a{
+    text-decoration: none ;
+    color: black;
+    font-size: 15px;
+}
+span{
+    font-weight: 900;
+}
+nav h1{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: gilroy;
+}
+#content{
+    line-height: 18px;
+    padding-top: 150px;
+    /* background-color: #F6F6EE; */
+    background-color: #4F4975;
+    width: 100%;
+    text-align: center;
+}
+#content p{
+    width: 30vw;
+    margin: 20px auto;
+    font-size: 13px;
+}
+#content h1{
+    text-transform: capitalize;
+
+}
+button{
+    padding: 6px 11px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+#img{
+    width: 100%;
+}
+#img img{
+    width: 100%;
+}
+#des{
+    width: 100%;
+    display: flex;
+    padding-bottom: 90px;
+    background-color: #4F4975;
+    color: black;
+}
+#leftdes{
+    /* background-color: aqua; */
+    width: 50%;
+    border-right: 2px solid black;
+    text-align: right;
+    flex-direction: column;
+    padding-left: 380px;
+    position: relative;
+}
+#line{
+    height: 3px;
+    width: 40px;
+    background-color: black;
+    position: absolute;
+    right: 7%;
+}
+#rightdes{
+    /* background-color: brown; */
+    width: 50%;
+    align-items: center;
+
+}
+#hp h3{
+    /* padding: 10px; */
+    align-items: center;
+
+}
+#hp p{
+    /* align-items: center; */
+    width: 50%;
+    font-size: 14px;
+}
+#hp1 p{
+    /* align-items: center; */
+    width: 50%;
+    font-size: 14px;
+
+}
+#leftdes h2{
+    width: 85%;
+    margin-bottom: 10px;
+    /* text-align: right; */
+}
+
+#leftdes p{
+    width: 85%;  
+    margin-top: 25px;
+    /* padding-left: 20px; */
+}
+i{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+#yo{
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    padding-bottom: 15px;
+}
+#yoo{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    
+}
